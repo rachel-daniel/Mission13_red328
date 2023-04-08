@@ -1,8 +1,7 @@
-import { useEffect } from 'preact/hooks';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Movie } from '../types/movie';
 
-function MovieList() {
+function MoviesList() {
   const [movieData, setMovieData] = useState<Movie[]>([]);
 
   useEffect(() => {
@@ -37,7 +36,7 @@ function MovieList() {
             <tr key={m.movieId}>
               <td>{m.category}</td>
               <td>{m.title}</td>
-              <td>{m.year}</td>
+              <td>{parseInt(m.year)}</td>
               <td>{m.director}</td>
               <td>{m.rating}</td>
               <td>{m.edited}</td>
@@ -52,4 +51,4 @@ function MovieList() {
   );
 }
 
-export default MovieList;
+export default MoviesList;

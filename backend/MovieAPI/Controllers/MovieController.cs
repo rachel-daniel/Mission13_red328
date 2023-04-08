@@ -23,7 +23,9 @@ namespace MovieAPI.Controllers
         // GET: /<controller>/
         public IEnumerable<Movie> Get()
         {
-            var x = context.Movies.ToArray();
+            var x = context.Movies.Where(m => m.Edited == "Yes")
+                .OrderBy(m => m.Title)
+                .ToArray();
 
             return x;
         }

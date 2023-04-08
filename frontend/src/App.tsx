@@ -1,9 +1,10 @@
 import React from 'react';
 import './App.css';
 import Home from './Home';
-import MovieList from './movies/MovieList';
+import MoviesList from './movies/MovieList';
 import PodcastPage from './Podcasts';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
@@ -36,7 +37,7 @@ function App() {
             <Routes>
               <Route path="/" Component={Home} />
               <Route path="/podcast" Component={PodcastPage} />
-              <Route path="/movies" Component={MovieList} />
+              <Route path="/movies" Component={MoviesList} />
             </Routes>
           </div>
         </Router>

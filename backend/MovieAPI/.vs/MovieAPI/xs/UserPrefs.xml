@@ -1,16 +1,32 @@
-﻿<Properties StartupConfiguration="{520D9209-EEAA-46B9-ABF3-12194A9BA54E}|Default">
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.MovieAPI PreferredExecutionTarget="/Applications/Google Chrome 2.app" FirstBuild="True" />
-  <MonoDevelop.Ide.Workbench>
+﻿<Properties StartupConfiguration="{520D9209-EEAA-46B9-ABF3-12194A9BA54E}|api">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
+    <Files>
+      <File FileName="Program.cs" Line="28" Column="1" />
+      <File FileName="Data/MovieDbContext.cs" Line="12" Column="49" />
+      <File FileName="Data/Movie.cs" Line="13" Column="22" />
+      <File FileName="appsettings.json" Line="11" Column="4" />
+      <File FileName="Controllers/MovieController.cs" Line="28" Column="22" />
+      <File FileName="Properties/launchSettings.json" Line="7" Column="26" />
+      <File FileName="WeatherForecast.cs" Line="1" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="MovieAPI" expanded="True" selected="True" />
+          <Node name="MovieAPI" expanded="True">
+            <Node name="MovieAPI" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.MovieAPI PreferredExecutionTarget="/Applications/Google Chrome 2.app" />
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
