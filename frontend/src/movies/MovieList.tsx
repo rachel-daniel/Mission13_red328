@@ -45,8 +45,11 @@ function MovieList() {
               <td>{m.notes}</td>
             </tr>
           ))}
+          ;
         </tbody>
       </table>
     </>
   );
 }
+
+export default MovieList;

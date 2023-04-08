@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Home from './Home';
-import MovieList from './Movies';
+import MovieList from './movies/MovieList';
 import PodcastPage from './Podcasts';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 
